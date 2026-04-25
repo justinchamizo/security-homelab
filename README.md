@@ -15,4 +15,22 @@ environments and practice both offensive and defensive security techniques.
 | WS01 | Windows 10 | Victim Workstation |
 | SIEM | Ubuntu 22.04 | Splunk SIEM |
 
-## Network Diagram (In Progress)
+## Network Diagram
+![Network Diagram](setup/network-diagram.png)
+
+## Phases
+| Phase | Status |
+|---|---|
+| Environment Setup | ⬜ In Progress |
+| Active Directory Configuration | ⬜ Not Started |
+| Reconnaissance | ⬜ Not Started |
+| Exploitation | ⬜ Not Started |
+| Detection & Defense | ⬜ Not Started |
+| Final Report | ⬜ Not Started |
+
+## Tools Used
+Kali Linux · Windows Server 2022 · Metasploit · Nmap · 
+Wireshark · BloodHound · Impacket · Splunk · Nessus Essentials
+
+## Full Report
+[Vulnerability Assessment Report](report/vulnerability-assessment-report.pdf)
