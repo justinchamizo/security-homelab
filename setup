@@ -1,0 +1,28 @@
+# Active Directory Setup
+
+## Step 1 — Install Windows Server 2022
+- Downloaded Windows Server 2022 evaluation ISO from Microsoft
+- Created VM in VirtualBox with 4096MB RAM, 50GB storage
+
+![VM Settings](screenshots/1)
+
+## Step 2 — Install AD Domain Services
+- Opened Server Manager → Add Roles and Features
+- Selected Active Directory Domain Services and installed
+
+![AD DS Installation](screenshots/2)
+
+## Step 3 — Promote to Domain Controller
+- Promoted server to Domain Controller
+- Created new forest: chamizo.justin
+- Set DSRM password
+
+![Domain Controller Promotion](3)
+
+## Step 4 — Create Organizational Units
+Created three OUs to simulate a real company structure:
+- IT
+- HR
+- Finance
+
+![OU Creation](4)
