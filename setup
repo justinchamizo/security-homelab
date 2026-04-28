@@ -4,7 +4,7 @@
 - Downloaded Windows Server 2022 evaluation ISO from Microsoft
 - Created VM in VirtualBox with 4096MB RAM, 50GB storage
 
-![VM Settings](screenshots/01-vm-settings.png)
+![VM Settings](01-vm-settings.png)
 ![Windows Server Desktop](02-windows-server-desktop.png)
 
 ## Step 2 — Install AD Domain Services
@@ -12,7 +12,7 @@
 - Selected Active Directory Domain Services and installed
 
 ![AD DS Roles Checked](03-ad-ds-roles-checked.png)
-![AD DS Install Complete](4-ad-ds-install-complete.png)
+![AD DS Install Complete](04-ad-ds-install-complete.png)
 
 ## Step 3 — Promote to Domain Controller
 - Promoted server to Domain Controller
