@@ -4,7 +4,7 @@
 - Downloaded Windows Server 2022 evaluation ISO from Microsoft
 - Created VM in VirtualBox with 4096MB RAM, 50GB storage
 
-![VM Settings](screenshots/1)
+![VM Settings](screenshots/01-vm-settings.png.png)
 
 ## Step 2 — Install AD Domain Services
 - Opened Server Manager → Add Roles and Features
