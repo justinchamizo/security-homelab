@@ -21,9 +21,9 @@ environments and practice both offensive and defensive security techniques.
 ## Phases
 | Phase | Status |
 |---|---|
-| Environment Setup | ⬜ In Progress |
-| Active Directory Configuration | ⬜ Not Started |
-| Reconnaissance | ⬜ Not Started |
+| Environment Setup | ✅ Completed |
+| Active Directory Configuration | ✅ Completed |
+| Reconnaissance | 🔄 In Progress |
 | Exploitation | ⬜ Not Started |
 | Detection & Defense | ⬜ Not Started |
 | Final Report | ⬜ Not Started |
