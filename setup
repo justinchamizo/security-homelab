@@ -5,22 +5,22 @@
 - Created VM in VirtualBox with 4096MB RAM, 50GB storage
 
 ![VM Settings](screenshots/01-vm-settings.png)
-![Windows Server Desktop](screenshots/02-windows-server-desktop.png)
+![Windows Server Desktop](02-windows-server-desktop.png)
 
 ## Step 2 — Install AD Domain Services
 - Opened Server Manager → Add Roles and Features
 - Selected Active Directory Domain Services and installed
 
-![AD DS Roles Checked](screenshots/03-ad-ds-roles-checked.png)
-![AD DS Install Complete](screenshots/04-ad-ds-install-complete.png)
+![AD DS Roles Checked](03-ad-ds-roles-checked.png)
+![AD DS Install Complete](4-ad-ds-install-complete.png)
 
 ## Step 3 — Promote to Domain Controller
 - Promoted server to Domain Controller
 - Created new forest: chamizo.justin
 - Set DSRM password
 
-![New Forest Setup](screenshots/05-new-forest-setup.png)
-![Domain Login Screen](screenshots/06-domain-login-screen.png)
+![New Forest Setup](05-new-forest-setup.png)
+![Domain Login Screen](06-domain-login-screen.png)
 
 ## Step 4 — Create Organizational Units
 Created three OUs to simulate a real company structure:
@@ -28,7 +28,7 @@ Created three OUs to simulate a real company structure:
 - HR
 - Finance
 
-![OU Creation](screenshots/07-ou-creation.png)
+![OU Creation](07-ou-creation.png)
 
 ## Step 5 — Create User Accounts
 Created user accounts across departments:
@@ -39,10 +39,10 @@ Created user accounts across departments:
 | mwilliams | HR | HR Manager |
 | tdavis | Finance | Accountant |
 
-![User Creation](screenshots/08-user-creation.png)
-![Users in IT OUs](screenshots/09-users-in-ous.png)
-![Users in HR OUs](screenshots/09.1-users-in-ous.png)
-![Users in Finance OUs](screenshots/09.2-users-in-ous.png)
+![User Creation](08-user-creation.png)
+![Users in IT OUs](09-users-in-ous.png)
+![Users in HR OUs](09.1-users-in-ous.png)
+![Users in Finance OUs](09.2-users-in-ous.png)
 
 ## Step 6 — Configure Group Policy Objects
 Applied the following GPOs:
@@ -50,8 +50,9 @@ Applied the following GPOs:
 - Account lockout after 5 failed attempts
 - USB drives disabled on all workstations
 
-![GPO Password Policy](screenshots/10-gpo-password-policy.png)
-![GPO Linked](screenshots/11-gpo-linked.png)
+![GPO Password Policy](10-gpo-password-policy.png)
+![GPO Password Policy](10.1-gpo-password-policy.png)
+![GPO Linked](11-gpo-linked.png)
 
 ## Step 7 — Join Windows 10 to Domain
 - Changed computer name to WS01
