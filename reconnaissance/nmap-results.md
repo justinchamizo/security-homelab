@@ -13,26 +13,30 @@ operating systems on the lab network before exploitation.
 
 ## Step 1 — Host Discovery
 Command:
+```bash
 nmap -sn 192.168.56.0/24
-
+```
 ![Host Discovery](screenshots/22-nmap-host-discovery.png)
 
 ## Step 2 — Service and Version Scan
 Command:
+```bash
 nmap -sV -O 192.168.56.0/24
-
+```
 ![Service Scan](screenshots/23-nmap-service-scan.png)
 
 ## Step 3 — Targeted DC01 Scan
 Command:
+```bash
 nmap -sV -sC -p- 192.168.56.101
-
+```
 ![DC01 Scan](screenshots/24-nmap-dc01-scan.png)
 
 ## Step 4 — Targeted WS01 Scan
 Command:
+```bash
 nmap -sV -sC -p- 192.168.56.102
-
+```
 ![WS01 Scan](screenshots/25-nmap-ws01-scan.png)
 
 ## Key Findings
