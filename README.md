@@ -23,8 +23,8 @@ environments and practice both offensive and defensive security techniques.
 |---|---|
 | Environment Setup | ✅ Completed |
 | Active Directory Configuration | ✅ Completed |
-| Reconnaissance | 🔄 In Progress |
-| Exploitation | ⬜ Not Started |
+| Reconnaissance | ✅ Completed |
+| Exploitation | 🔄 In Progress |
 | Detection & Defense | ⬜ Not Started |
 | Final Report | ⬜ Not Started |
 
