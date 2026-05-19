@@ -30,4 +30,4 @@ Kali Linux · Windows Server 2022 · Active Directory ·
 VirtualBox · Nmap · Metasploit · Impacket · Hashcat · Splunk
 
 ## Full Report
-[Vulnerability Assessment Report](report/vulnerability-assessment-report.pdf)
+[Vulnerability Assessment Report](report/vulnerability-assessment-report.md)
